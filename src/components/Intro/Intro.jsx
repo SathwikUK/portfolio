@@ -2,7 +2,7 @@ import React, { useContext } from "react";
 import "./Intro.css";
 import Vector1 from "../../img/Vector1.png";
 import Vector2 from "../../img/Vector2.png";
-import boy from "../../img/boy.png";
+import boy from "../../img/pboy-removebg-preview.png";
 import glassesimoji from "../../img/glassesimoji.png";
 import thumbup from "../../img/thumbup.png";
 import crown from "../../img/crown.png";
@@ -69,12 +69,12 @@ const Intro = () => {
 
         {/* animation */}
         <motion.div
-          initial={{ left: "9rem", top: "18rem" }}
-          whileInView={{ left: "0rem" }}
+          initial={{ left: "10rem", top: "18.3rem" }}
+          whileInView={{ left: "1rem" }}
           transition={transition}
           className="floating-div"
         >
-          {/* floatinDiv mein change hy dark mode ka */}
+         
           <FloatinDiv img={thumbup} text1="Best Design" text2="Award" />
         </motion.div>
 
